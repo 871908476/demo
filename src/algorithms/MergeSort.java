@@ -2,8 +2,6 @@ package algorithms;
 //归并法
 
 import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.Iterator;
 
 public class MergeSort {
     public static <T extends Comparable> void run(ArrayList<T> data, int startIdx, int endIdx) {

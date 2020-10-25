@@ -27,8 +27,6 @@ public class Client {
             System.out.println(new String(bytes, 0, len));
         }
         fis.close();
-        out.close();
-        in.close();
         socket.close();
     }
 }

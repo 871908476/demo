@@ -4,7 +4,7 @@ import java.sql.Connection;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class Run {
+public class JDBCToolDemo {
     public static void main(String[] args) {
         Connection conn = JDBCTool.getConnection();
         Statement stmt = JDBCTool.getStatement(conn);
@@ -14,6 +14,6 @@ public class Run {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-        JDBCTool.close(conn,stmt);
+        JDBCTool.close();
     }
 }

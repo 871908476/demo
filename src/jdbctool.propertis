@@ -1,4 +1,0 @@
-url=jdbc:mysql:///test?useSSL=false
-user=root
-password=root
-driver=com.mysql.jdbc.Driver

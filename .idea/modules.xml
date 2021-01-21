@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/demo.iml" filepath="$PROJECT_DIR$/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/primary/primary.iml" filepath="$PROJECT_DIR$/primary/primary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/servletDemo/servletDemo.iml" filepath="$PROJECT_DIR$/servletDemo/servletDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/userManagementSystem/userManagementSystem.iml" filepath="$PROJECT_DIR$/userManagementSystem/userManagementSystem.iml" />
     </modules>
   </component>
 </project>

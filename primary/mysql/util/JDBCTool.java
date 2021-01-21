@@ -49,9 +49,8 @@ public class JDBCTool {
     /**
      * 获取SQL语句执行对象
      */
-    public static Statement getStatement() {
-        if (conn == null) getConnection();
-        else try {
+    public static Statement getStatement(Connection conn) {
+       try {
             stmt = conn.createStatement();
         } catch (SQLException e) {
             e.printStackTrace();

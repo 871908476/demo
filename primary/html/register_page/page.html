@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register_Page</title>
+    <link rel="stylesheet" href="page.css">
+</head>
+<body>
+<div id="container">
+    <div id="top">
+        <span>
+            已有账户了，<a href="">立即登录</a>吧！
+        </span>
+    </div>
+    <form id="bottom">
+        <table id="table">
+            <tr>
+                <td>用户名</td>
+                <td><input name="username" type="text" pattern="^[_\da-zA-Z]{6,12}$"></td>
+                <td id="username_note"><span>*</span>请输入6~12位 _ 、数字、字母</td>
+            </tr>
+            <tr>
+                <td>设置密码</td>
+                <td><input name="password" type="password" pattern="^.+$"></td>
+                <td id="pw_note"><span>*</span>请输入6~16位字符</td>
+            </tr>
+            <tr>
+                <td>确认密码</td>
+                <td><input id="pw2" type="password"></td>
+                <td id="pw_note2"><span>*</span>请再次输入密码</td>
+            </tr>
+            <tr>
+                <td>手机号码</td>
+                <td><input name="telephone" type="text" pattern="\d+"></td>
+                <td id="telephone_note"><span>*</span>请输入正确的手机号码</td>
+            </tr>
+            <tr>
+                <td>常用邮箱</td>
+                <td><input name="email" type="email"></td>
+                <td id="email_note"><span>*</span>请填写常用的电子邮箱用于找回密码</td>
+            </tr>
+            <tr>
+                <td>QQ号码</td>
+                <td><input name="qq" type="text" pattern="\d+"></td>
+                <td id="qq_note"><span>*</span>请填写常用的QQ号码</td>
+            </tr>
+            <tr>
+                <td>验证码</td>
+                <td>
+                    <table id="codeTb">
+                        <tr>
+                            <td><input id="codeInput" type="text"></td>
+                            <td><input id="codeBtn" type="button" value="获取手机验证码"></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" id="submitBtn" value="立即注册">
+                </td>
+            </tr>
+            <tr>
+                <td id="cb" colspan="2">
+                    <input id="agree" type="checkbox">我已阅读并同意<span>服务条款</span>
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+
+<script src="page.js"></script>
+</body>
+</html>
